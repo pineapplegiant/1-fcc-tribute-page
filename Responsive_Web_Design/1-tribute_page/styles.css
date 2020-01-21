@@ -1,0 +1,87 @@
+/*CSS for the cool kids*/
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap");
+html {
+  box-sizing: border-box;
+  margin: 0;
+  height: 100%;
+  font-weight: normal;
+  font-family: "IBM Plex Mono", monospace;
+}
+:root {
+  --border-style: black solid 1.35px;
+  --baby-blue: #2f8bed;
+  --purple: #483cb7;
+  --dark-blue: #4e60ed;
+  --blue: #4e60ed;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+.title-div {
+  width: 100%;
+  border: var(--border-style);
+  padding: 0.2em;
+  margin-bottom: 15px;
+}
+#title {
+  padding: 6px;
+  display: inline-block;
+  border: var(--border-style);
+  width: auto;
+  box-shadow: 20px 10px var(--baby-blue);
+  color: #000;
+}
+
+.group {
+  display: flex;
+  width: 90%;
+  border: var(--border-style);
+  padding: 2em;
+  background-color: var(--baby-blue);
+}
+
+[class*="tribute-info-"] {
+  background-color: white;
+  display: inline-block;
+  padding: 15px;
+  border: var(--border-style);
+  /*box-shadow: -27px 40px var(--white);*/
+  margin: 15px;
+}
+
+.section-wrapper {
+  flex: 1;
+}
+
+#image {
+  max-width: 100%;
+}
+
+figure {
+  display: flex;
+  max-width: 400px;
+  flex-direction: column;
+  border: var(--border-style);
+  /*box-shadow: 1.2em 1.2em var(--baby-blue);*/
+  background-color: white;
+  padding: 10px;
+  margin: 0;
+}
+
+@media (max-width: 920px) {
+  .group {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
