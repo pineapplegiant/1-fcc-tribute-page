@@ -1,0 +1,59 @@
+/*CSS for the cool kids*/
+@import url("https://fonts.googleapis.com/css?family=Libre+Franklin|Montserrat&display=swap");
+html {
+  box-sizing: border-box;
+  margin: 0;
+  height: 100%;
+  font-weight: normal;
+  font-family: "Libre Franklin", sans-serif;
+  color: white;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: rgb(224, 61, 64);
+  background: linear-gradient(
+    45deg,
+    rgba(224, 61, 64, 1) 0%,
+    rgba(189, 69, 177, 1) 44%,
+    rgba(103, 60, 192, 1) 86%
+  );
+}
+
+header {
+  text-align: center;
+}
+
+.title {
+  display: inline-flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+h1 {
+  font-size: 3.14em;
+  margin: 0;
+  padding: 15px;
+}
+
+.header-description {
+  margin: 0 auto 30px;
+}
+
+main {
+  color: rgba(0, 0, 0, 0.8);
+  border: 1px solid rgb(115, 115, 115);
+  border-radius: 5px;
+  display: flex;
+  margin: 0 auto;
+  width: 55%;
+  justify-content: center;
+  background-color: white;
+  height: 70vh;
+}
