@@ -1,5 +1,10 @@
+
+<img src="https://s3.amazonaws.com/freecodecamp/curriculum-diagram-full.jpg" alt="Free Code Camp LOGO" width="150px">
+
 # My [FreeCodeCamp](https://www.freecodecamp.org/pineapplegiant) projects
+![Vim is the hero](https://img.shields.io/badge/made%20with-vim%E2%9D%A4%EF%B8%8F-blue)
 
 
-I told myself a while back that I'd get a few of these certifications, so here's me keeping that promise to myself. I'll of course host the final products on codepen. I just think codepen is lame.
+I told myself a while back that I'd get these certifications, so here's me keeping that promise to myself. You can check all the projects on [codepen](https://codepen.io/collection/XPObaY). 
 
+I like to develope here, since I think codepen is kinda lame. [C'est la vie](https://youtu.be/vQ0u09mFodw?t=115).
