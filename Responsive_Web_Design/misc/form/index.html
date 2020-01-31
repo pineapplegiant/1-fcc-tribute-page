@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="results.html" method="get" enctype="multipart/form-data">
+      <!--Name-->
+      <div>
+        <label for="name">Name</label>
+        <input
+          id="name"
+          name="name"
+          type="text"
+          placeholder="username"
+          required
+        />
+      </div>
+      <!--Email-->
+      <div>
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="email@email.com"
+          required
+        />
+      </div>
+      <!--Age-->
+      <div>
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" min="0" max="150" step="5" />
+      </div>
+      <!--Birthday-->
+      <div>
+        <label
+          >Birthday
+          <input type="date" name="date" min="2020-01-30" />
+        </label>
+      </div>
+      <!--Favorite Food-->
+      <div>
+        Favorite Food:
+        <!--banana-->
+        <div>
+          <label for="banana">Banana</label>
+          <input type="checkbox" name="banana" id="banana" />
+        </div>
+        <!--apple-->
+        <div>
+          <label for="apple">Apple</label>
+          <input type="checkbox" name="apple" id="apple" />
+        </div>
+        <!--orange-->
+        <div>
+          <label for="orange">Orange</label>
+          <input type="checkbox" name="orange" id="orange" />
+        </div>
+      </div>
+      <div>
+        Gender
+        <div>
+          <label for="male">Male</label>
+          <input type="radio" name="gender" value="male" />
+
+          <label id="male" for="male" value="female">Female</label>
+          <input id="female" type="radio" name="gender" />
+        </div>
+      </div>
+      <div>
+        <!--Eyecolor "Select" Tag DOESNT USE INPUT-->
+        <label for="eyeColor">Eyecolor</label>
+        <select name="eyeColor" id="eyeColor" multiple>
+          <option value="Green">Green</option>
+          <option value="Red" label="Red"></option>
+        </select>
+      </div>
+      <!--HIDDEN TYPE INPUT-->
+      <input type="hidden" name="hidden" value="hi" />
+      <!--"Textarea" Tag DOESNT USE INPUT-->
+      <div>
+        <label for="bio">Bio</label>
+        <textarea id="bio" name="bio">My biography</textarea>
+      </div>
+      <!--Password-->
+      <div>
+        <label for="password">Password</label>
+        <input
+          id="password"
+          name="password"
+          type="password"
+          placeholder="Crazy password"
+          required
+        />
+      </div>
+      <!--file input, note must specify enctype="multipart/form-data" for the form-->
+      <!--type as well-->
+      <div>
+        <label for="file">FILE</label>
+        <input type="file" name="file" id="file" />
+      </div>
+      <!--Phone Number Field-->
+      <div>
+        <label for="phone">Phone Number</label>
+        <input type="tel" name="phone" id="phone" />
+      </div>
+      <!--Website Field-->
+      <div>
+        <label for="url">Your website</label>
+        <input type="url" name="url" id="url" />
+      </div>
+      <div>
+        <label for="color">Your fave Color</label>
+        <input type="color" name="color" id="color" />
+      </div>
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
