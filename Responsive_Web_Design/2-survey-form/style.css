@@ -25,35 +25,120 @@ body {
   );
 }
 
+/*
+* Header
+*/
 header {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px auto 0 auto;
 }
 
-.title {
-  display: inline-flex;
-  justify-content: center;
-  margin: 0 auto;
-  width: 100%;
+header p {
+  font-size: 12px;
 }
 
-h1 {
+.header-title h1 {
   font-size: 3.14em;
   margin: 0;
   padding: 15px;
+  display: inline;
 }
 
-.header-description {
-  margin: 0 auto 30px;
+.header-title img {
+  display: inline;
+  vertical-align: bottom;
 }
 
-main {
-  color: rgba(0, 0, 0, 0.8);
-  border: 1px solid rgb(115, 115, 115);
-  border-radius: 5px;
+/*
+* Form 
+* CSS
+ */
+
+form {
+  color: #262626;
+  border: 1px solid #e6e6e6;
+  border-radius: 1px;
+  padding: 1.5rem;
   display: flex;
+  flex-direction: column;
   margin: 0 auto;
-  width: 55%;
-  justify-content: center;
+  max-width: 350px;
+  width: 100%;
   background-color: white;
-  height: 70vh;
+  height: 80vh;
+}
+
+.form-group {
+  font-weight: bold;
+  margin: 0 25px 12px;
+}
+
+.normal {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+/*
+* Inputs
+ */
+
+label {
+  margin-bottom: 1px;
+}
+
+input {
+  color: #262626;
+  background: #fafafa;
+  border-radius: 3px;
+  height: 38px;
+  margin: 0;
+}
+
+select {
+  border: 0;
+}
+
+.input {
+  width: 100%;
+  outline: none;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+}
+
+.input:focus {
+  border: 1px solid #262626;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 21px;
+  margin-top: 7px;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  outline: none;
+  height: 70px;
+}
+
+textarea:focus {
+  border: 1px solid #262626;
+}
+
+button {
+  width: 100%;
+  border-radius: 3px;
+  outline: none;
+}
+
+button:focus {
+  border: 1px solid #262626;
+}
+
+@media only screen and (max-width: 380px) {
 }
