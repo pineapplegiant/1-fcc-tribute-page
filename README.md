@@ -1,7 +1,7 @@
 
 <img src="https://s3.amazonaws.com/freecodecamp/curriculum-diagram-full.jpg" alt="Free Code Camp LOGO" width="150px">
 
-# My [FreeCodeCamp](https://www.freecodecamp.org/pineapplegiant) projects
+# My [FreeCodeCamp](https://www.freecodecamp.org/pineapplegiant) Tribute page!
 ![Vim is the hero](https://img.shields.io/badge/made%20with-vim%E2%9D%A4%EF%B8%8F-blue)
 
 
