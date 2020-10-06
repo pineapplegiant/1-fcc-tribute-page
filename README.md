@@ -2,7 +2,7 @@
 <img src="https://s3.amazonaws.com/freecodecamp/curriculum-diagram-full.jpg" alt="Free Code Camp LOGO" width="150px">
 
 # My [FreeCodeCamp](https://www.freecodecamp.org/pineapplegiant) Tribute page!
-![Vim is the hero](https://img.shields.io/badge/made%20with-vim%E2%9D%A4%EF%B8%8F-blue)
+![Neovim is the hero](https://img.shields.io/badge/made%20with-neovim%E2%9D%A4%EF%B8%8F-blue)
 
 
 I told myself a while back that I'd get these certifications, so here's me keeping that promise to myself. You can check all the projects on [codepen](https://codepen.io/collection/XPObaY). 
