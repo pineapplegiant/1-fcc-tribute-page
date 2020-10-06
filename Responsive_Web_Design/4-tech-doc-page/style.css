@@ -105,6 +105,7 @@ header div {
 
 .title {
   border-bottom: 1px solid var(--caption);
+  margin: 1em 0;
 }
 
 .caption {
@@ -145,6 +146,10 @@ footer p {
   text-align: center;
 }
 
+.footer-logo {
+  transform: scaleX(-1);
+}
+
 .social-media {
   display: flex;
   justify-content: center;
@@ -169,6 +174,13 @@ footer p {
   nav {
     padding: 1em;
     min-width: 30%;
+  }
+  main {
+    max-width: 65ch;
+  }
+  #header {
+    position: fixed;
+    padding: 1em;
   }
 }
 
